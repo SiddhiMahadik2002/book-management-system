@@ -20,8 +20,8 @@ function App() {
   const [books, setBooks] =
     useState([]);
 
-  const [searchTerm,
-    setSearchTerm] =
+  const [searchBook,
+    setSearchBook] =
     useState("");
 
   const [editingBook,
@@ -85,12 +85,12 @@ function App() {
         book.title
           .toLowerCase()
           .includes(
-            searchTerm.toLowerCase()
+            searchBook.toLowerCase()
           ) ||
         book.author
           .toLowerCase()
           .includes(
-            searchTerm.toLowerCase()
+            searchBook.toLowerCase()
           )
     );
 
@@ -102,10 +102,10 @@ function App() {
 
       <SearchBar
         searchTerm={
-          searchTerm
+          searchBook
         }
         setSearchTerm={
-          setSearchTerm
+          setSearchBook
         }
       />
 

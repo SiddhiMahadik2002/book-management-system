@@ -5,14 +5,14 @@
   margin-top: 30px;
 }
 
-/* Tablet */
+
 @media (max-width: 992px) {
   .book-list {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Mobile */
+
 @media (max-width: 576px) {
   .book-list {
     grid-template-columns: 1fr;

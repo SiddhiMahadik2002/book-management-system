@@ -27,7 +27,7 @@
   color: #555;
 }
 
-/* Push buttons to bottom */
+
 .card-actions {
   margin-top: auto;
 
@@ -47,11 +47,11 @@
 }
 
 .edit-btn {
-  background-color: #10b981;
+  background-color: #4338ca;
 }
 
 .edit-btn:hover {
-  background-color: #059669;
+  background-color: #3730a3;
 }
 
 .delete-btn {
